@@ -1,0 +1,222 @@
+* {
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px;
+}
+
+.search-parent {
+    position: relative;
+    background: rgba(255, 255, 255, 1);
+    font-size: 30px;
+
+}
+
+.search-parent i {
+    position: absolute;
+    right: 12px;
+    top: 13px;
+}
+
+.search-parent input {
+    border-radius: 66px;
+    width: 500px;
+    padding: 15px 20px;
+    background: rgba(241, 241, 241, 1);
+    border: none;
+}
+
+.nav-items {
+    display: flex;
+    list-style: none;
+    gap: 24px;
+
+}
+
+.nav-items li a {
+    text-decoration: none;
+    color: #707070;
+    font-size: 16px;
+    font-weight: 600;
+
+}
+
+/* banner section start */
+.banner {
+    background-color: rgba(254, 234, 233, 1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    margin-top: 25px;
+
+}
+
+.banner-title {
+    padding: 10px 56px 30px 38px;
+}
+
+.banner img {
+    width: 402px;
+    height: 378px;
+    padding: 0px 8px 30px;
+
+}
+
+.banner h2 {
+    color: rgba(31, 31, 31, 1);
+    font-style: Bold;
+    font-size: 56px;
+    font-weight: 700;
+}
+
+.banner p {
+    color: rgba(78, 78, 78, 1);
+    font-family: Inter;
+    font-style: Regular;
+    font-size: 16px;
+    font-weight: 400;
+    max-width: 500px;
+}
+
+.banner-price {
+    font-size: 41px;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 8px;
+    color: rgba(255, 19, 111, 1);
+}
+
+.panda-btn {
+    padding: 12px 25px 12px 25px;
+    border-radius: 6px;
+    background: linear-gradient(#ff448e);
+    border: none;
+    color: white;
+    font-size: 12px;
+    font-weight: 500;
+
+}
+
+/* categories-card section */
+.categories-comon-title {
+    font-size: 36px;
+    font-weight: 600;
+    margin: 0;
+    margin-bottom: 24px;
+}
+
+.categories {
+    margin-top: 26px;
+}
+
+.categories-card-container {
+    display: flex;
+    gap: 26px;
+    width: 100%;
+}
+
+.categories-cadr:nth-child(1) {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    padding: 15px;
+    gap: 5px;
+    flex: 1;
+    background: linear-gradient(151.85deg, rgba(255, 156, 53, 1) 1.473%, rgba(255, 208, 25, 1) 97.175%);
+}
+
+.categories-cadr:nth-child(2) {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    padding: 15px;
+    gap: 5px;
+    flex: 1;
+    background: linear-gradient(151.85deg, rgb(247, 61, 179) 1.473%, rgb(216, 20, 134) 97.175%);
+}
+
+.categories-cadr:nth-child(3) {
+    background: linear-gradient(170.38deg, rgba(66, 137, 255, 1) -10.886%, rgba(63, 7, 248, 1) 92.766%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    padding: 15px;
+    gap: 5px;
+    flex: 1;
+}
+
+.categories-cadr h3 {
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/* shoes section start */
+.shoes-nav{
+    display: flex;
+    justify-content: space-between;
+    width: 1280px;
+    margin: 0 auto;
+    align-items: center;
+}
+.see-all{
+    color: #FF9D00;
+    font-size: 12px;
+    font-weight: 700;
+}
+.shoes-title{
+    font-size: 30px;
+    font-weight: 600;
+}
+.shoes-section {
+    background: rgba(244, 244, 244, 1);
+    /* padding: 50px 0; */
+    /* margin-top: 50px; */
+    
+}
+
+.shoe-card {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.shoes-card img {
+    width: 336px;
+    /* height: 202px; */
+}
+
+.shoes-card {
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    text-align: center;
+    padding: 25px;
+    width: 100%;
+}
+
+.shoes-price {
+    display: block;
+    font-size: 26px;
+    font-weight: 500;
+    color: black;
+    margin-bottom: 12px;
+}
+
+.shoes-card .panda-btn {
+    background: black;
+}
