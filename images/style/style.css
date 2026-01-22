@@ -183,9 +183,7 @@ nav {
 }
 .shoes-section {
     background: rgba(244, 244, 244, 1);
-    /* padding: 50px 0; */
-    /* margin-top: 50px; */
-    
+      
 }
 
 .shoe-card {
@@ -194,11 +192,12 @@ nav {
     justify-content: center;
     width: 1280px;
     margin: 0 auto;
+     
 }
 
 .shoes-card img {
     width: 336px;
-    /* height: 202px; */
+    
 }
 
 .shoes-card {
@@ -207,6 +206,7 @@ nav {
     text-align: center;
     padding: 25px;
     width: 100%;
+    
 }
 
 .shoes-price {
@@ -219,4 +219,32 @@ nav {
 
 .shoes-card .panda-btn {
     background: black;
+}
+ footer{
+    background-color: #FFF2F1;
+    text-align: center;
+    padding: 25px 15px;
+ }
+ .contact-inp-btn-parent input{
+    border: none;
+    padding: 15px 150px;
+ }
+ .contact-inp-btn-parent{
+    display: flex;
+    justify-content: center;
+ }
+ footer p{
+    font-size: 12px;
+    font-weight: 600;
+    color: rgba(112, 112, 112, 1);
+
+ }
+ footer h2{
+    font-size: 25px;
+    font-weight: 600;
+    color: rgba(31, 31, 31, 1);
+ }
+.contact-inp-btn-parent .panda-btn {
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
 }
