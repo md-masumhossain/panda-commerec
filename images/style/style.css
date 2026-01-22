@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
+    scroll-behavior: smooth;
 }
 
 .container {
@@ -49,7 +50,30 @@ nav {
     font-weight: 600;
 
 }
-
+.product-li{
+    position: relative;
+}
+.droupdown-nav-items{
+position: absolute;
+top: 30%;
+left: -10px;
+padding: 5px 0;
+list-style: none;
+background-color: #ffffff;
+border-radius: 0 0 10px 10px;
+text-align: center;
+width: 100px;
+visibility: hidden;
+transition: 0.5s;
+box-shadow: -9px -4px 90px 0px rgba(0,0,0,0.75);
+}
+.droupdown-nav-items li{
+    margin: 5px;
+}
+.product-li:hover .droupdown-nav-items{
+    visibility: visible;
+    top: 100%;
+}
 /* banner section start */
 .banner {
     background-color: rgba(254, 234, 233, 1);
@@ -104,6 +128,7 @@ nav {
     color: white;
     font-size: 12px;
     font-weight: 500;
+    cursor: pointer;
 
 }
 
@@ -192,7 +217,7 @@ nav {
     justify-content: center;
     width: 1280px;
     margin: 0 auto;
-     
+     /* box-shadow: -9px -4px 34px 0px rgba(0,0,0,0.75); */
 }
 
 .shoes-card img {
@@ -206,7 +231,7 @@ nav {
     text-align: center;
     padding: 25px;
     width: 100%;
-    
+    box-shadow: -7px -4px 90px 0px rgba(118, 116, 116, 0.75);
 }
 
 .shoes-price {

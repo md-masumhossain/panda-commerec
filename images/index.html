@@ -4,7 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+   <link rel="shortcut icon" href="./shoes/logo.png" type="image/x-icon">
+    <title>panda shop</title>
+    
     <link rel="stylesheet" href="./style/style.css">
     <!-- font-awesome cdn -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
@@ -24,18 +26,29 @@
             <figure> <img src="./shoes/logo.png" alt=""></figure>
             <div class="search-parent">
                 <input type="text" placeholder="search">
-                <i class="fa-solid fa-magnifying-glass-location"></i>
+                <i class="fa-solid fa-magnifying-glass"></i>
             </div>
             <ul class="nav-items">
                 <li><a href="">Home</a></li>
-                <li><a href="">Product</a></li>
-                <li><a href="">About Us</a></li>
-                <li><a href="">Contact Us</a></li>
+                <li><a href="#Backpack">Backpack</a></li>
+                <li><a href="#aboutus">Aboutus</a></li>
+                <li><a href="#contactus">Contactus</a></li>
+
+                <li class="product-li"><a href="">product</a>
+                    <i class="fa-solid fa-caret-down"></i>
+                    <ul class="droupdown-nav-items">
+                        <li><a href="#">product 1</a></li>
+                        <li><a href="#">product 2</a></li>
+                        <li><a href="#">product 3</a></li>
+                        <li><a href="#">product 4</a></li>
+                        <li><a href="#product">product </a></li>
+                    </ul>
+                </li>
             </ul>
         </nav>
         <!-- banner section -->
         <section class="banner container">
-            <div class="banner-title">
+            <div class="banner-title" id="aboutus">
                 <h1>Mi LED TV 4A PRO 32</h1>
                 <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor <br> do amet sint. Velit officia
                     consequat duis enim velit mollit. <br> Exercitation veniam consequat sunt nostrud amet.</p>
@@ -94,13 +107,13 @@
                 </div>
             </div>
         </section>
-        <section class="shoes-section">
+        <section class="shoes-section" id="Backpack">
             <div class="shoes-nav">
                 <p class="shoes-title">Backpack</p>
                 <p class="see-all">See All</p>
             </div>
 
-            <div class="shoe-card ">
+            <div class="shoe-card">
                 <div class="shoes-card">
                     <img src="./bags/bag-1.png" alt="">
                     <h2>Ison Backpack</h2>
@@ -128,10 +141,10 @@
     <!-- back part section -->
 </body>
 <!-- contactus-section -->
-<footer>
+<footer id="contactus">
     <h2>LET'S STAY IN TOUCH</h2>
     <p>Get updates on sales specials and more</p>
-    <div class="contact-inp-btn-parent">
+    <div class="contact-inp-btn-parent" id="product">
         <input type="text" placeholder="enter your email">
         <button class="panda-btn">sand</button>
     </div>
